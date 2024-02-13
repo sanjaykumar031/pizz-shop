@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/* navbar styling */
+.navbar{
+    width: 100%;
+    position: relative;
+    padding: 15px 0;
+    background: crimson;
+    font-family: 'Ubuntu',sans-serif;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar .logo{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu li{
+    display: inline-flex;
+    list-style: none;
+
+
+}
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition:color 0.3 ease;
+}
+.navbar .menu li a:hover{
+    color: rgb(26, 30, 37);
+}
+.logo a span{
+    color: #fff;
+    margin-left: 10%;
+}
+
+/* Home section styling */
+.home{
+    display: flex;
+    background: url("food.jpg.jpg");
+    background-repeat: no-repeat;
+    /* background-image: none; */
+    background-attachment: fixed;
+    /* background-size: 2000px ; */
+    background-size:cover ;
+    background-position:left;
+    height:100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu' sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+
+}
+
+.home .home-content .text-1{
+    font-size: 32px;
+}
+.home .home-content .text-2{
+    font-size: 55px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 48px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+button{
+    background-color: blue;
+    border: none;
+    border-radius:2px;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover{
+     background-color: #45a049;
+}
+/* .image{
+    width: 2000px;
+    height: 500px;
+    transition: tranform 0.3s;
+}
+.image:hover{
+    transform: scale(1.1);
+} */
